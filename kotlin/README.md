@@ -27,8 +27,24 @@ Basic Syntax
 <pre>
   <code>
   func 함수 이름 (파라미터1: 입력 타입, ... ): 반환 타입 {
-    return 반환
+    return 반환 값
   }
+  </code>
+</pre>
+
+함수의 바디 없이 바로 반환 할 수도 있습니다.
+
+<pre>
+  <code>
+  func sum(a: Int, b: Int)  {
+    return a + b
+  }
+  </code>
+</pre>
+
+<pre>
+  <code>
+  func sum(a: Int, b: Int) = a + b
   </code>
 </pre>
 
