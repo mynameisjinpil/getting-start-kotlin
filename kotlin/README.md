@@ -49,5 +49,5 @@ func sum(a: Int, b: Int) = a + b
 </pre>
 
 ## Variables
-Read-only 로컬 변수들은 ```val''''로 정의됩니다. 
+Read-only 로컬 변수들은 `val`로 정의됩니다. 
 
