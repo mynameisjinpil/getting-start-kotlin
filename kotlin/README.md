@@ -1,7 +1,7 @@
 Basic Syntax
 ==========
 ## Package definition and imports
-패키지 상제사항은 소스파일의 맨 위에 위치해야한다:
+패키지 상제사항은 소스파일의 맨 위에 위치해야합니다.
 <pre>
 <code>
 // ===Top of the code file===
@@ -47,4 +47,7 @@ func sum(a: Int, b: Int)  {
 func sum(a: Int, b: Int) = a + b
 </code>
 </pre>
+
+## Variables
+Read-only 로컬 변수들은 ```val''''로 정의됩니다. 
 
