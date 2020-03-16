@@ -2,24 +2,22 @@ Basic Syntax
 ==========
 ## Package definition and imports
 패키지 상제사항은 소스파일의 맨 위에 위치해야합니다.
-<pre>
-<code>
+
+```
 // ===Top of the code file===
 package my.demo
 import kotlin.text.*
-</code>
-</pre>
+```
 디렉토리와 패키지를 일치지킬 필요가 없습니다. 
 
 ## Program entry point
 코틀린의 진입 점은 main함수입니다.
-<pre>
-<code>
+
+```
 func main() {
   println("Hello world!")
 }
-</code>
-</pre>
+```
 
 ## Functions
 함수는 다음과 같이 작성합니다.
@@ -44,6 +42,26 @@ func sum(a: Int, b: Int) = a + b
 Read-only 로컬 변수들은 `val`로 정의됩니다. 값은 한번만 할당 
 
 ```
-public class 
+val a: Int = 1 // immediate assignment
+val b = 2 // int type is inderred
+val c: Int // type required when no initializer is provided
+c = 3 // deffered assignment
 ```
 
+변수는 `var`키워드를 사용했을 때 수정해 줄 수 있다.
+
+```
+var x += 5
+x += 1
+```
+
+최상위 레벨 변수.
+
+```
+val PI = 3.14
+var x = 0
+
+func incrementX() {
+	x += 1
+}
+```
