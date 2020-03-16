@@ -26,10 +26,10 @@ Tutorials<https://kotlinlang.org/docs/tutorials/>
 
 ## Steps
 
-1. Download and install [Android Studio][https://developer.android.com/studio/index.html] which includes Kotilin support out of box.
+1. Download and install [Android Studio](https://developer.android.com/studio/index.html) which includes Kotilin support out of box.
 
-2. Follow the [Getting Started with Android and Kotlin][https://kotlinlang.org/docs/tutorials/kotlin-android.html] tutorial to create your first Kotlin apllication
+2. Follow the [Getting Started with Android and Kotlin](https://kotlinlang.org/docs/tutorials/kotlin-android.html) tutorial to create your first Kotlin apllication
 
-3. For a more in-depth introduction, check out the [reference documentation][https://kotlinlang.org/docs/reference/] and [Kotlin Koands][https://kotlinlang.org/docs/tutorials/koans.html].
+3. For a more in-depth introduction, check out the [reference documentation](https://kotlinlang.org/docs/reference/) and [Kotlin Koands](https://kotlinlang.org/docs/tutorials/koans.html).
 
 
