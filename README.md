@@ -1,4 +1,6 @@
 # getting-start-kotlin
+// TODO: Anotation processing, Data binding, Dagger알아보기
+
 Laguage Guide<https://kotlinlang.org/docs/reference/>
 
 Tutorials<https://kotlinlang.org/docs/tutorials/>
@@ -15,7 +17,6 @@ Tutorials<https://kotlinlang.org/docs/tutorials/>
 
 - Interoperability: 코틀린은 모든 안드로이드 라이브러리 지원을 허용하며 완벽하게 자바와 호환됩니다. 이것은 어노테이션 프로세싱과 데이터 바인딩, Dagger도 포함합니다.
 
-// TODO: Anotation processing, Data binding, Dagger알아보기
 
 -  Foot Print: 코틀린은 매우 간단한 런타임 라이브러리를 가집니다. 이것은 ProGuard를 이용해 더 줄일수도 있습니다. 실제 어플리케이션에서 코틀린 런타임은 추가합니다 오직 몇백개의 메서드와 100k 이하 사이즈의 .apk 파일들을.
 
